@@ -23,9 +23,9 @@ export function HeroRoleImageRotator() {
   }, []);
 
   return (
-    <div className="mt-2 w-full min-w-0 overflow-visible sm:mt-3">
+    <div className="mt-3 w-full min-w-0 overflow-visible sm:mt-4">
       <div
-        className="relative h-[3.2rem] w-full overflow-hidden sm:h-[3.6rem]"
+        className="relative h-[3.2rem] w-full overflow-hidden rounded-xl sm:h-[3.6rem]"
         aria-live="polite"
         aria-label="Role titles"
       >

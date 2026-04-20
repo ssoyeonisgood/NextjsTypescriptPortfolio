@@ -62,9 +62,61 @@ body {
   }
 }
 
+/* Hero staggered fade-up entrance */
+.hero-fade-up {
+  opacity: 0;
+  transform: translateY(22px);
+  animation: heroFadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.hero-delay-1 { animation-delay: 0.12s; }
+.hero-delay-2 { animation-delay: 0.24s; }
+.hero-delay-3 { animation-delay: 0.38s; }
+.hero-delay-4 { animation-delay: 0.5s; }
+.hero-delay-5 { animation-delay: 0.65s; }
+
+@keyframes heroFadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Decorative shape subtle rotations */
+.hero-shape-rotate {
+  rotate: -14deg;
+  animation: shapeRotate 20s ease-in-out infinite;
+}
+
+.hero-shape-rotate-reverse {
+  rotate: 10deg;
+  animation: shapeRotateReverse 22s ease-in-out infinite;
+}
+
+@keyframes shapeRotate {
+  0%, 100% { rotate: -14deg; }
+  50% { rotate: -11deg; }
+}
+
+@keyframes shapeRotateReverse {
+  0%, 100% { rotate: 10deg; }
+  50% { rotate: 13deg; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .hero-name-shimmer {
     animation: none;
     background-position: 52% 50%;
+  }
+
+  .hero-fade-up {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+
+  .hero-shape-rotate,
+  .hero-shape-rotate-reverse {
+    animation: none;
   }
 }
