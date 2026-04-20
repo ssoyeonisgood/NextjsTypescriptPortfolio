@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Changa_One, Geist_Mono } from "next/font/google";
+import "animate.css";
 import "./globals.css";
 
 const changaOne = Changa_One({
