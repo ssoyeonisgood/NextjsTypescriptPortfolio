@@ -1,5 +1,4 @@
 import Image from "next/image";
-import 'animate.css';
 
 import { HeroRoleImageRotator } from "./HeroRoleImageRotator";
 
@@ -16,19 +15,16 @@ export function HeroLanding() {
  <div className="grid flex-1 items-center gap-10 lg:min-h-0 lg:grid-cols-[minmax(0,1.12fr)_minmax(0,0.88fr)] lg:gap-10 lg:py-2 xl:gap-14">
           <div className="relative z-20 flex min-w-0 flex-col justify-center pr-2 sm:pr-4 lg:pr-6">
             <div className="inline-flex flex-col items-start">
-              <h1 className="text-[clamp(1.35rem,2.5vw,2rem)] leading-tight tracking-[0.01em] text-emerald-800">
+              <h1 className="font-mono text-[clamp(1.35rem,2.5vw,2rem)] font-extrabold leading-tight tracking-[0.01em] text-emerald-800">
                 Hi, I&apos;m
               </h1>
-              <div className="relative">
-                <h1 className="hero-name-shimmer whitespace-nowrap text-[140px] font-extrabold leading-[1.1] tracking-tight">
-                  Soyeon Kim,
-                </h1>
-                <span className="hero-name-scan-bar pointer-events-none absolute inset-x-0 bottom-3 h-2" aria-hidden />
-              </div>
+              <h1 className="hero-name-shimmer relative whitespace-nowrap bg-gradient-to-r from-emerald-900 via-emerald-500 to-emerald-300 bg-[length:220%_100%] bg-clip-text text-[clamp(4.5rem,10vw,7.5rem)] font-extrabold leading-[1.1] tracking-tight text-transparent drop-shadow-[0_0_10px_rgba(16,185,129,0.35)] animate-pulse">
+                Soyeon Kim,
+              </h1>
             </div>
             <HeroRoleImageRotator />
             <p className="mt-6 max-w-md text-base leading-relaxed text-black/80 sm:text-lg">
-            It’s a pleasure to meet you. I invite you to explore my website, where you can learn more about my work, projects, and professional experience.
+            Hi, nice to meet you! Want to learn more about me? Feel free to explore my website, where you’ll find all the information about my work and experiences. Enjoy your visit!
             </p>
             <div className="mt-8">
               <a
