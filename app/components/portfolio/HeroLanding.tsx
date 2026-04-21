@@ -26,7 +26,7 @@ export function HeroLanding() {
 
             {/* Name heading */}
             <div className="hero-fade-up hero-delay-1 inline-flex flex-col items-start">
-              <span className="font-mono text-[clamp(0.85rem,1.4vw,1.05rem)] font-medium uppercase tracking-[0.18em] text-black/40">
+              <span className="hero-fade-up hero-delay-1 text-2xl font-medium uppercase tracking-[0.18em] text-black/40">
                 Hi, I&apos;m
               </span>
               <h1 className="hero-name-shimmer relative mt-1 whitespace-nowrap bg-gradient-to-r from-emerald-900 via-emerald-500 to-emerald-300 bg-[length:220%_100%] bg-clip-text text-[clamp(3.8rem,9vw,7rem)] font-extrabold leading-[1.05] tracking-[-0.03em] text-transparent">
@@ -74,14 +74,6 @@ export function HeroLanding() {
                 Get in Touch
               </a>
             </div>
-
-            {/* Decorative line */}
-            <div className="hero-fade-up hero-delay-5 mt-12 flex items-center gap-4">
-              <div className="h-px w-12 bg-gradient-to-r from-emerald-400/60 to-transparent" />
-              <span className="font-mono text-[0.65rem] uppercase tracking-[0.25em] text-black/25">
-                Scroll to explore
-              </span>
-            </div>
           </div>
 
           {/* Right: Photo + decorative shapes */}
@@ -99,7 +91,7 @@ export function HeroLanding() {
               />
               {/* Small accent shape */}
               <div
-                className="pointer-events-none absolute -left-4 top-[40%] z-[3] h-16 w-16 rounded-2xl bg-gradient-to-br from-emerald-400 to-emerald-300 opacity-60 shadow-lg transition-transform duration-500 group-hover/hero-decor:translate-x-2 group-hover/hero-decor:translate-y-1 sm:-left-6 sm:h-20 sm:w-20 lg:-left-8 lg:h-24 lg:w-24"
+                className="pointer-events-none absolute rotate-75 -left-4 top-[40%] z-[3] h-16 w-16 rounded-2xl bg-gradient-to-br from-emerald-400 to-emerald-300 opacity-60 shadow-lg transition-transform duration-500 group-hover/hero-decor:translate-x-2 group-hover/hero-decor:translate-y-1 sm:-left-6 sm:h-20 sm:w-20 lg:-left-8 lg:h-60 lg:w-60"
                 aria-hidden
               />
 

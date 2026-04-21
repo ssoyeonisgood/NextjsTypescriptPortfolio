@@ -103,6 +103,61 @@ body {
   50% { rotate: 13deg; }
 }
 
+/* Experience floating decorations */
+.exp-float-slow {
+  animation: expFloat 8s ease-in-out infinite;
+}
+
+.exp-float-medium {
+  animation: expFloat 6s ease-in-out infinite;
+  animation-delay: -2s;
+}
+
+.exp-float-fast {
+  animation: expFloatSmall 4.5s ease-in-out infinite;
+  animation-delay: -1s;
+}
+
+@keyframes expFloat {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  33% { transform: translateY(-12px) rotate(1.5deg); }
+  66% { transform: translateY(6px) rotate(-1deg); }
+}
+
+@keyframes expFloatSmall {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+/* Experience section animations */
+.exp-header {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.exp-header.exp-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.exp-card {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.exp-card-visible {
+  animation: expCardReveal 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes expCardReveal {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .hero-name-shimmer {
     animation: none;
@@ -117,6 +172,24 @@ body {
 
   .hero-shape-rotate,
   .hero-shape-rotate-reverse {
+    animation: none;
+  }
+
+  .exp-header {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .exp-card {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+
+  .exp-float-slow,
+  .exp-float-medium,
+  .exp-float-fast {
     animation: none;
   }
 }
