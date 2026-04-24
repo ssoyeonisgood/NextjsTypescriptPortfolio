@@ -43,7 +43,7 @@ export function AboutSection() {
       id="about"
       className="scroll-mt-16 border-b border-zinc-200/80"
     >
-      <div className="relative flex min-h-screen w-full items-center overflow-hidden bg-[#DFF9E1]">
+      <div className="relative flex min-h-screen w-full min-h-[calc(100vh-3.5rem)] sm:min-h-[calc(100vh-4rem)] items-center overflow-hidden bg-[#DFF9E1]">
         {/* Noise texture overlay */}
         <div
           className="pointer-events-none absolute inset-0 z-[1] opacity-[0.045]"

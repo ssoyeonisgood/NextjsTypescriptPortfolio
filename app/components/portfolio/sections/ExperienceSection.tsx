@@ -88,7 +88,7 @@ export function ExperienceSection() {
     <section
       ref={sectionRef}
       id="experience"
-      className="exp-section relative flex min-h-screen scroll-mt-16 items-center overflow-hidden bg-white"
+      className="exp-section relative flex min-h-[calc(100vh-3.5rem)] scroll-mt-16 items-center overflow-hidden bg-white sm:min-h-[calc(100vh-4rem)]"
     >
       {/* Soft mesh gradient background */}
       <div className="pointer-events-none absolute inset-0">
