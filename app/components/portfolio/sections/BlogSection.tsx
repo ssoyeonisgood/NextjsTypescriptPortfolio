@@ -1,5 +1,6 @@
 "use client";
 
+import "animate.css";
 import { useEffect, useMemo, useRef, useState } from "react";
 
 const BLUE = "#5D7BFA";
@@ -95,53 +96,70 @@ export function BlogSection() {
       id="blog"
       className="scroll-mt-16 relative flex min-h-[calc(100vh-3.5rem)] items-center overflow-hidden border-b border-zinc-200/80 bg-white sm:min-h-[calc(100vh-4rem)]"
       style={{
-        opacity: isVisible ? 1 : 0.45,
-        transform: isVisible
-          ? "perspective(1200px) rotateX(0deg) scale(1) translateY(0px)"
-          : "perspective(1200px) rotateX(10deg) scale(0.96) translateY(48px)",
-        filter: isVisible ? "blur(0px)" : "blur(6px)",
-        clipPath: isVisible
-          ? "inset(0% 0% 0% 0% round 0rem)"
-          : "inset(12% 0% 0% 0% round 2.5rem)",
-        transition:
-          "transform 1400ms cubic-bezier(0.22, 1, 0.36, 1), filter 1200ms ease, clip-path 1400ms cubic-bezier(0.22, 1, 0.36, 1), opacity 4000ms ease",
+        opacity: isVisible ? 1 : 0,
+        transform: isVisible ? "translateY(0px)" : "translateY(24px)",
+        transition: "opacity 700ms ease, transform 700ms ease",
       }}
     >
       <img
         src="/line.png"
         alt=""
         aria-hidden="true"
-        className="pointer-events-none absolute -left-10 top-1/2 z-0 h-auto w-[42rem] -translate-y-1/2 rotate-90 "
+        className={[
+          "pointer-events-none absolute -left-10 top-1/2 z-0 h-auto w-[42rem] -translate-y-1/2 rotate-90",
+          isVisible ? "animate__animated animate__flash" : "",
+        ].join(" ")}
+        style={{ animationDuration: "5.5s", animationDelay: "200ms" }}
       />
       <img
         src="/line.png"
         alt=""
         aria-hidden="true"
-        className="pointer-events-none absolute -right-10 top-1/2 z-0 h-auto w-[42rem] -translate-y-1/2 rotate-265 scale-x-[-1]"
+        className={[
+          "pointer-events-none absolute -right-10 top-1/2 z-0 h-auto w-[42rem] -translate-y-1/2 rotate-265 scale-x-[-1]",
+          isVisible ? "animate__animated animate__flash" : "",
+        ].join(" ")}
+        style={{ animationDuration: "6.2s", animationDelay: "900ms" }}
       />
       <img
         src="/star.png"
         alt=""
         aria-hidden="true"
-        className="pointer-events-none absolute left-10 top-24 z-0 h-auto w-20 opacity-80"
+        className={[
+          "pointer-events-none absolute left-10 top-24 z-0 h-auto w-20 opacity-80",
+          isVisible ? "animate__animated animate__flash" : "",
+        ].join(" ")}
+        style={{ animationDuration: "2.2s", animationDelay: "0ms" }}
       />
       <img
         src="/star.png"
         alt=""
         aria-hidden="true"
-        className="pointer-events-none absolute left-14 bottom-28 z-0 h-auto w-14 rotate-12 opacity-70"
+        className={[
+          "pointer-events-none absolute left-14 bottom-28 z-0 h-auto w-14 rotate-12 opacity-70",
+          isVisible ? "animate__animated animate__flash" : "",
+        ].join(" ")}
+        style={{ animationDuration: "2.8s", animationDelay: "500ms" }}
       />
       <img
         src="/star.png"
         alt=""
         aria-hidden="true"
-        className="pointer-events-none absolute right-6 top-28 z-0 h-auto w-20 -rotate-12 opacity-80"
+        className={[
+          "pointer-events-none absolute right-6 top-28 z-0 h-auto w-20 -rotate-12 opacity-80",
+          isVisible ? "animate__animated animate__flash" : "",
+        ].join(" ")}
+        style={{ animationDuration: "2.4s", animationDelay: "250ms" }}
       />
       <img
         src="/star.png"
         alt=""
         aria-hidden="true"
-        className="pointer-events-none absolute right-16 bottom-24 z-0 h-auto w-14 opacity-70"
+        className={[
+          "pointer-events-none absolute right-16 bottom-24 z-0 h-auto w-14 opacity-70",
+          isVisible ? "animate__animated animate__flash" : "",
+        ].join(" ")}
+        style={{ animationDuration: "3s", animationDelay: "850ms" }}
       />
       <div className="pointer-events-none absolute inset-x-0 top-0 h-[52vh] bg-gradient-to-b from-[#DFF9E1]/90 via-[#DFF9E1]/45 to-transparent" />
 

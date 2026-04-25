@@ -40,11 +40,12 @@ export function HeroLanding() {
             </div>
 
             {/* Description */}
-            <p className="hero-fade-up hero-delay-3 mt-7 max-w-lg text-[0.95rem] leading-[1.7] text-black/55 sm:text-base">
-              Welcome! Feel free to explore my portfolio — you&apos;ll find
-              everything about my projects, skills, and professional journey.
-              Glad you stopped by.
-            </p>
+            <div className="hero-fade-up hero-delay-3 mt-7 max-w-2xl text-[0.95rem] leading-[1.7] sm:text-lg">
+              Welcome! Feel free to explore my portfolio.
+              <p>you&apos;ll find
+              everything about my projects, skills, and professional journey.</p>
+              <p>Glad you stopped by.😍😍😍</p>
+            </div>
 
             {/* CTA buttons */}
             <div className="hero-fade-up hero-delay-4 mt-9 flex flex-wrap items-center gap-3.5">
@@ -71,7 +72,7 @@ export function HeroLanding() {
                 href="#contact"
                 className="inline-flex items-center gap-2 rounded-full border border-black/10 bg-white/60 px-7 py-3 text-sm font-semibold text-black/70 backdrop-blur-sm transition-all duration-300 hover:border-black/20 hover:bg-white hover:text-black hover:-translate-y-0.5 active:translate-y-0"
               >
-                Get in Touch
+                Contact Me
               </a>
             </div>
           </div>

@@ -10,6 +10,14 @@ const SKILLS = [
   "React",
   "Next.js",
   "TypeScript",
+  "JavaScript",
+  "Java",
+  "C#",
+  "HTML",
+  "CSS",
+  "Bootstrap",
+  "Shadcn UI",
+  "Material UI",
   "Tailwind CSS",
   "PHP",
   "Laravel",
@@ -17,6 +25,8 @@ const SKILLS = [
   "Python",
   "SQL",
   "Git",
+  "AWS",
+  "Docker",
 ];
 
 export function AboutSection() {
@@ -109,25 +119,13 @@ export function AboutSection() {
             </h2>
 
             <div className="mt-8 space-y-5 text-[0.95rem] leading-[1.85] tracking-wide text-black/75 sm:text-base">
-              <p>
-                I&apos;m <strong className="font-semibold text-black/90">Soyeon Kim</strong>.
-                I recently graduated with a Bachelor&apos;s in Software Engineering from
-                Curtin University in February this year. During my studies, I built strong
-                skills in software development, database management, and web technologies.
-              </p>
-              <p>
-                In 2024, I completed a 6-month internship at{" "}
-                <strong className="font-semibold text-black/90">Sustech Engineering</strong>,
-                where I helped convert Word and Excel forms into web-based formats using PHP
-                and Laravel. I also created{" "}
-                <strong className="font-semibold text-black/90">Recipe Recommender</strong>,
-                an AI web app using Remix, TypeScript, Tailwind and Vercel AI-SDK.
-              </p>
-              <p>
-                Outside of tech, I enjoy watching dramas and playing TFT. Currently binging{" "}
-                <em className="text-emerald-700">Breaking Bad</em> — the storytelling and
-                suspense make it incredibly engaging!
-              </p>
+            <p>I’m Soyeon Kim, <strong>Software Engineering graduate from Curtin University</strong>. During my studies, I gained practical experience through <strong>a 6-month internship at Sustech Engineering</strong>, where I contributed to transforming traditional Word and Excel-based workflows into scalable web applications using PHP and Laravel. This experience strengthened my ability to build efficient, user-focused systems.</p>
+
+            <p>I’m currently working as <strong>a part-time Software Developer at Setsy</strong>, building web applications with TypeScript, Next.js, Prisma, and Vercel. Alongside this, I work as <strong>an Export & Import Operator</strong>, where I’ve developed strong attention to detail and adaptability in fast-paced environments.</p>
+
+            <p>I enjoy building projects that combine creativity and technical problem-solving. One of my key projects is <strong>an AI-powered Recipe Recommender web application</strong>, built with Remix, TypeScript, Tailwind CSS, and the Vercel AI SDK.</p>
+
+            <p>I am highly motivated to continuously learn and adapt to new technologies, with a strong interest in building intuitive and impactful web applications.</p> 
             </div>
 
             {/* Skills */}
@@ -151,10 +149,10 @@ export function AboutSection() {
             {/* CTA */}
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <a
-                href="mailto:hello@example.com"
+                href="#contact"
                 className="group inline-flex items-center gap-2.5 rounded-full bg-emerald-800 px-8 py-3.5 text-sm font-bold uppercase tracking-[0.06em] text-white shadow-lg shadow-emerald-900/20 transition-all duration-300 hover:-translate-y-0.5 hover:bg-emerald-700 hover:shadow-xl hover:shadow-emerald-900/25"
               >
-                <span>Get in touch</span>
+                <span>Contact Me</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -169,7 +167,9 @@ export function AboutSection() {
                 </svg>
               </a>
               <a
-                href="/resume.pdf"
+                href="/Soyeon_Kim_resume.pdf"
+                target="_blank"
+                rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border-2 border-emerald-800/20 bg-white/50 px-7 py-3 text-sm font-semibold tracking-wide text-emerald-900 backdrop-blur-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-emerald-800/40 hover:bg-white/80"
               >
                 <svg
@@ -184,10 +184,6 @@ export function AboutSection() {
                 <span>Resume</span>
               </a>
             </div>
-
-            <p className="mt-12 text-[0.78rem] font-mono uppercase tracking-[0.22em] text-black/35">
-              Soyeon&ensp;/&ensp;Full Stack Developer
-            </p>
           </div>
         </div>
       </div>

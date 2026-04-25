@@ -8,51 +8,51 @@ const experiences = [
     company: "Setsy",
     period: "2026.01 — Present",
     description:
-      "Building and maintaining software products as a software engineer.",
+      "Developed and enhanced features for the Setsy web application using TypeScript, Next.js, Prisma, and Vercel.",
     active: true,
   },
   {
     role: "Export & Import Operator",
-    company: "GML Perth Pty Ltd",
+    company: "GML Perth sssss(freight forwarding company)",
     period: "2026.01 — Present",
     description:
-      "Managing export and import operations, handling logistics and documentation.",
+      "Managing export and import operations between Australia and Korea, handling logistics and documentation.",
     active: true,
   },
   {
     role: "Office Administrator",
-    company: "GT Engineering",
+    company: "GT Engineering (Labour Hire Company)",
     period: "2024.08 — 2025.02",
     description:
-      "Handled office administration, coordinated engineering projects, and managed documentation.",
+      "Managed payments for welders, communicated with client companies, and built the GT Engineering website using WordPress.",
   },
   {
     role: "Software Assistant",
     company: "Sustech Engineering Pty Ltd",
     period: "2024.03 — 2024.06",
     description:
-      "Assisted in software development and engineering support tasks.",
+      "Continued contributing to engineering software projects beyond the internship, improving code quality and overall system performance.",
   },
   {
     role: "Software Engineer Intern",
     company: "Sustech Engineering Pty Ltd",
     period: "2023.12 — 2024.03",
     description:
-      "Contributed to engineering software projects as an intern, gaining hands-on development experience.",
+      "Contributed to engineering software projects as an intern using PHP and Laravel, gaining hands-on development experience.",
   },
   {
     role: "Barista",
     company: "Gelare",
     period: "2022.12 — 2024.03",
     description:
-      "Delivered quality customer service and managed daily café operations.",
+      "Prepared coffee and desserts, delivered quality customer service and managed daily café operations.",
   },
   {
-    role: "Sushi Maker",
+    role: "Sushi Maker leader",
     company: "Super Tetsudo",
     period: "2020.05 — 2022.12",
     description:
-      "Prepared sushi and Japanese cuisine, maintained food safety standards.",
+      "Prepared sushi and Japanese cuisine, maintained food safety standards, and managed a team of sushi makers.",
   },
 ];
 

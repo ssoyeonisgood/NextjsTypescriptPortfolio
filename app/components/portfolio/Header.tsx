@@ -26,9 +26,9 @@ export function Header() {
             className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border-2 border-black bg-white text-xs font-bold text-black"
             aria-hidden
           >
-            P
+            S
           </span>
-          <span className="text-sm font-bold uppercase tracking-wide">Portfolio</span>
+          <span className="text-sm font-bold uppercase tracking-wide">Soyeon's Portfolio</span>
         </a>
 
         <nav className="hidden items-center gap-1 md:flex" aria-label="Primary">
