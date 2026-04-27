@@ -26,18 +26,18 @@ export function ContactSection() {
   const contacts = [
     {
       label: "LinkedIn",
-      value: "linkedin.com/in/your-profile",
-      href: "https://linkedin.com/in/your-profile",
+      value: "soyeonkim0223",
+      href: "https://www.linkedin.com/in/soyeonkim0223/",
     },
     {
       label: "GitHub",
-      value: "github.com/your-username",
-      href: "https://github.com/your-username",
+      value: "ssoyeonisgood",
+      href: "https://github.com/ssoyeonisgood",
     },
     {
       label: "Email",
-      value: "hello@example.com",
-      href: "mailto:hello@example.com",
+      value: "haikyu5123@gmail.com",
+      href: "mailto:haikyu5123@gmail.com",
     },
   ];
 

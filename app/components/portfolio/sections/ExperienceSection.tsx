@@ -13,15 +13,15 @@ const experiences = [
   },
   {
     role: "Export & Import Operator",
-    company: "GML Perth sssss(freight forwarding company)",
-    period: "2026.01 — Present",
+    company: "GML Perth Pty Ltd",
+    period: "2025.12 — Present",
     description:
       "Managing export and import operations between Australia and Korea, handling logistics and documentation.",
     active: true,
   },
   {
     role: "Office Administrator",
-    company: "GT Engineering (Labour Hire Company)",
+    company: "GT Engineering Pty Ltd",
     period: "2024.08 — 2025.02",
     description:
       "Managed payments for welders, communicated with client companies, and built the GT Engineering website using WordPress.",
