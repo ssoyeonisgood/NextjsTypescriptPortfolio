@@ -10,6 +10,7 @@ A modern personal portfolio website built with **Next.js** and **TypeScript**, d
 -  Responsive and modern UI design
 -  Projects showcase section
 -  About / experience section
+-  Blog section
 -  Contact section (form or links)
 -  Clean component-based architecture
 
