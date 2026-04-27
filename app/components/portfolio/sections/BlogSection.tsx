@@ -196,8 +196,8 @@ export function BlogSection() {
           <h2 className="bg-gradient-to-r from-emerald-700 via-emerald-500 to-teal-400 bg-clip-text text-transparent text-[90px]">
             Blog
           </h2>
-          <p className="mt-3 max-w-lg text-base leading-relaxed text-black/40">
-            Recent posts - connect this section to your CMS or MDX later.
+          <p className="mt-3 max-w-xl text-base leading-relaxed text-black/40">
+            Stories from real projects, practical lessons, and my growth as an engineer.
           </p>
         </div>
         <div className="relative mt-12">
