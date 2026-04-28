@@ -51,7 +51,7 @@ This workflow allowed me to move quickly while maintaining control, balancing de
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Next.js
 - TypeScript
