@@ -44,7 +44,7 @@ export function HeroLanding() {
               Welcome! Feel free to explore my portfolio.
               <p>you&apos;ll find
               everything about my projects, skills, and professional journey.</p>
-              <p>Glad you stopped by.😍😍😍</p>
+              <p>Glad you stopped by.</p>
             </div>
 
             {/* CTA buttons */}

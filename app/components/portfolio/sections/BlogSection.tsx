@@ -56,7 +56,7 @@ This project strengthened my skills in modern web development and AI integration
 
 I treated AI as a support tool, not a replacement. I carefully reviewed all generated code, watching for incorrect logic, unnecessary complexity, and over-reliance on AI outputs. I validated results, simplified where needed, and ensured consistency with my overall architecture. To make the most of AI, I actively used features like Ask, Agent, and Plan, adapting how I interacted with the tool depending on the task.
 
-Additionally, I guided the AI with more specific context, such as frontend design-focused prompts (e.g. /frontend-design), to receive more structured and relevant suggestions. This allowed me to get more professional and targeted assistance, especially when refining UI and layout decisions.
+Additionally, I guided the AI with more specific context, such as frontend design-focused skills (e.g. /frontend-design), to receive more structured and relevant suggestions. This allowed me to get more professional and targeted assistance, especially when refining UI and layout decisions.
 
 This experience taught me how to effectively collaborate with AI, using it to accelerate development while maintaining full control over code quality, design decisions, and overall system structure.`,
   },
