@@ -8,7 +8,10 @@ import { ProjectsSection } from "./components/portfolio/sections/ProjectsSection
 
 export default function Home() {
   return (
-    <div id="top" className="min-h-screen bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-50">
+    <div
+      id="top"
+      className="min-h-screen bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-50"
+    >
       <Header />
       <div className="flex min-h-[calc(100dvh-3.5rem)] flex-col bg-white dark:bg-white sm:min-h-[calc(100dvh-4rem)]">
         <HeroLanding />
@@ -23,7 +26,7 @@ export default function Home() {
       </main>
 
       <footer className="border-t border-zinc-200 bg-zinc-50 py-8 text-center text-sm text-zinc-500 dark:border-zinc-800 dark:bg-zinc-950 dark:text-zinc-400">
-        <p>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
+        <p>Thanks for visiting!</p>
       </footer>
     </div>
   );
