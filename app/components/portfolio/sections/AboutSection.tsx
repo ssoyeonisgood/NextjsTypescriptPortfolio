@@ -7,26 +7,22 @@ const BLUE = "#5D7BFA";
 const SKY = "#7DD3FC";
 
 const SKILLS = [
-  "React",
-  "Next.js",
+  "Python",
+  "Excel",
+  "SQL",
+  "PostgreSQL",
+  "MySQL",
+  "Power BI",
+  "Git",
+  "Java",
   "TypeScript",
   "JavaScript",
-  "Java",
+  "React",
   "C#",
-  "HTML",
-  "CSS",
-  "Bootstrap",
-  "Shadcn UI",
-  "Material UI",
-  "Tailwind CSS",
-  "PHP",
-  "Laravel",
+  "Next.js",
   "Node.js",
-  "Python",
-  "SQL",
-  "Git",
+  "Express",
   "AWS",
-  "Docker",
 ];
 
 export function AboutSection() {
@@ -67,7 +63,7 @@ export function AboutSection() {
         <div className="pointer-events-none absolute -right-20 bottom-0 z-[1] h-[500px] w-[500px] rounded-full bg-emerald-700/15 blur-[100px]" />
 
         <div
-          className={`relative z-[2] mx-auto grid w-full max-w-7xl gap-6 px-4 py-20 sm:px-6 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-14 lg:px-8 lg:py-28 xl:gap-20`}
+          className={`relative z-[2] mx-auto grid w-full max-w-[1600px] gap-6 px-4 py-14 sm:px-6 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] lg:gap-16 lg:px-12 lg:py-16 xl:gap-24 2xl:px-20`}
         >
           {/* Left: Photo with decorative shapes */}
           <div
@@ -119,13 +115,42 @@ export function AboutSection() {
             </h2>
 
             <div className="mt-8 space-y-5 text-[0.95rem] leading-[1.85] tracking-wide text-black/75 sm:text-base">
-            <p>I’m Soyeon Kim, <strong>Software Engineering graduate from Curtin University</strong>. During my studies, I gained practical experience through <strong>a 6-month internship at Sustech Engineering</strong>, where I contributed to transforming traditional Word and Excel-based workflows into scalable web applications using PHP and Laravel. This experience strengthened my ability to build efficient, user-focused systems.</p>
+              <p>
+                I&apos;m Soyeon Kim, a <strong>Bachelor of Computing (Software Engineering) graduate
+                from Curtin University</strong>. Through my
+                studies, I built a solid foundation in software development, problem-solving, and
+                working with real-world technical challenges. These experiences have shaped how
+                I approach both data and engineering work today.
+              </p>
 
-            <p>I’m currently working as <strong>a part-time Software Developer at Setsy</strong>, building web applications with TypeScript, Next.js, Prisma, and Vercel. Alongside this, I work as <strong>an Export & Import Operator</strong>, where I’ve developed strong attention to detail and adaptability in fast-paced environments.</p>
+              <p>
+                I currently work as an <strong>Import &amp; Export Operator at GML Perth</strong>,
+                where I manage logistics operations between Australia and Korea. Beyond my day-to-day
+                responsibilities, I&apos;ve taken the initiative to improve how the business runs by{" "}
+                <strong>automating operational workflows with Tally and Airtable</strong>, replacing
+                manual Excel-based processes and reducing repetitive data entry. I also designed and
+                built a <strong>business website using WordPress and Elementor</strong>,
+                giving the company a clearer online presence and a more professional way to present
+                its services to clients.
+              </p>
 
-            <p>I enjoy building projects that combine creativity and technical problem-solving. One of my key projects is <strong>an AI-powered Recipe Recommender web application</strong>, built with Remix, TypeScript, Tailwind CSS, and the Vercel AI SDK.</p>
+              <p>
+                Until recently, I also worked as a{" "}
+                <strong>part-time Software Engineer at Setsy</strong>, where I collaborated with a
+                cross-functional team to design and deliver full-stack features. That role gave me
+                hands-on experience in a live product environment, from building and refining
+                application features to communicating with teammates, reviewing feedback, and
+                iterating on solutions.
+              </p>
 
-            <p>I am highly motivated to continuously learn and adapt to new technologies, with a strong interest in building intuitive and impactful web applications.</p> 
+              <p>
+                Across both operations and software work, I&apos;ve learned to pay close attention to
+                detail, adapt quickly in fast-paced environments, and find practical ways to improve
+                systems that people rely on every day. I&apos;m highly motivated to keep learning and
+                growing, with a strong interest in <strong>Data Analyst</strong> and{" "}
+                <strong>Software Developer</strong> roles where I can combine analytical thinking
+                with hands-on technical problem-solving.
+              </p>
             </div>
 
             {/* Skills */}
@@ -165,23 +190,6 @@ export function AboutSection() {
                     clipRule="evenodd"
                   />
                 </svg>
-              </a>
-              <a
-                href="/Soyeon_Kim_resume.pdf"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-full border-2 border-emerald-800/20 bg-white/50 px-7 py-3 text-sm font-semibold tracking-wide text-emerald-900 backdrop-blur-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-emerald-800/40 hover:bg-white/80"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  className="h-4 w-4"
-                >
-                  <path d="M10.75 2.75a.75.75 0 00-1.5 0v8.614L6.295 8.235a.75.75 0 10-1.09 1.03l4.25 4.5a.75.75 0 001.09 0l4.25-4.5a.75.75 0 00-1.09-1.03l-2.955 3.129V2.75z" />
-                  <path d="M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z" />
-                </svg>
-                <span>Resume</span>
               </a>
             </div>
           </div>

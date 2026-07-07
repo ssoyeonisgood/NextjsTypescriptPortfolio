@@ -64,13 +64,34 @@ This experience taught me how to effectively collaborate with AI, using it to ac
     title: "Working at Setsy: Real-World Development and Team Collaboration",
     date: "27, April 2026",
     tags: ["Software Developer","Real-World Application","GitHub","Cursor AI","Github","Live Product","Team Collaboration"],
-    excerpt: `I am currently working as a part-time Software Developer at Setsy, where I build and enhance web application features using TypeScript, Next.js, Prisma, and Vercel. My work involves developing new functionalities and improving existing ones to deliver a better user experience.
+    excerpt: `I worked as a part-time Software Developer at Setsy, where I built and enhanced web application features using TypeScript, Next.js, Prisma, and Vercel. My work involved developing new functionalities and improving existing ones to deliver a better user experience.
 
-Working remotely, I collaborate closely with the team through Slack, ensuring clear communication and alignment on tasks. Once I complete a feature, I create a pull request on GitHub, where senior developers review my code and provide feedback. I then iterate on my implementation based on their comments, refining both code quality and structure.
+    Working remotely, I collaborate closely with the team through Slack, ensuring clear communication and alignment on tasks. Once I complete a feature, I create a pull request on GitHub, where senior developers review my code and provide feedback. I then iterate on my implementation based on their comments, refining both code quality and structure.
+    
+    Throughout this process, I also leverage AI tools such as Cursor to support my development workflow. It helps me quickly explore solutions, debug issues, and improve code efficiency, allowing me to learn independently while working remotely. At the same time, I ensure all AI-assisted outputs are carefully reviewed and aligned with team standards.
+    
+    Through this experience, I have gained practical insight into real-world development workflows, including version control, code reviews, and remote collaboration. It has strengthened both my technical skills and my ability to learn proactively while contributing effectively within a team.`,
+  },
+  {
+    title: "Working at GML Perth: Automating Operations and Building a Business Website",
+    date: "1, December 2025",
+    tags: [
+      "Automation",
+      "Tally",
+      "Airtable",
+      "WordPress",
+      "Elementor",
+      "Workflow Improvement",
+      "Website Development",
+      "Operations",
+    ],
+    excerpt: `I currently work as an Import & Export Operator at GML Perth Pty Ltd, managing logistics operations between Australia and Korea. While handling day-to-day shipment and documentation work, I noticed that many processes still relied on manual Excel-based data entry, which was time-consuming and prone to errors.
 
-Throughout this process, I also leverage AI tools such as Cursor to support my development workflow. It helps me quickly explore solutions, debug issues, and improve code efficiency, allowing me to learn independently while working remotely. At the same time, I ensure all AI-assisted outputs are carefully reviewed and aligned with team standards.
+To improve this, I built application forms using Tally and shared the form URL with customers so they could complete their applications online. When a customer submits a form, the response is automatically saved to Airtable, creating a clear path from customer input to structured internal records. Airtable then helps the team track applications, manage records, and access reporting in one place. This workflow replaced repetitive manual data entry and made operational information easier to maintain across the team.
 
-Through this experience, I have gained practical insight into real-world development workflows, including version control, code reviews, and remote collaboration. It has strengthened both my technical skills and my ability to learn proactively while contributing effectively within a team.`,
+Beyond automation, I also took the initiative to build the company’s online presence from scratch. Using WordPress and Elementor, I designed and developed a minimalist business website that clearly presents GML Perth’s services and gives the company a more professional image for clients. This was a valuable opportunity to apply my technical skills in a real business environment, even though my primary role is operations-focused.
+
+This experience taught me how to identify inefficiencies in everyday workflows, propose practical improvements, and deliver solutions that people can actually use. It also strengthened my ability to bridge operations and technology, improving processes with automation while creating a simple, professional website that supports the business.`,
   },
 ].reverse();
 

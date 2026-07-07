@@ -4,9 +4,8 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const SLIDES = [
-  { src: "/Backend.png", alt: "Backend Developer" },
-  { src: "/Frontend.png", alt: "Frontend Developer" },
-  { src: "/Fullstack.png", alt: "Fullstack Developer" },
+  { src: "/DATA_ANALYST.png", alt: "Data Analyst" },
+  { src: "/softwareDeveloper.png", alt: "Software Developer" },
 ] as const;
 
 const INTERVAL_MS = 3000;

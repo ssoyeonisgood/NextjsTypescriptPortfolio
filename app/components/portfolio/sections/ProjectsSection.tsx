@@ -18,14 +18,40 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "Australian ED Snapshot (2024–25)",
+    description:
+      "Public health analytics project that built a Python ETL pipeline to process AIHW emergency department data and a Power BI dashboard for interactive national and state-level insights.",
+    stack: ["Python", "Microsoft Power BI", "CSV", "Pandas"],
+    website: "#",
+    websiteLabel: "Demo",
+    showWebsiteButton: false,
+    github: "https://github.com/ssoyeonisgood/au-ed-snapshot",
+    image: "/emergency.png",
+    gradient: "from-violet-500/35 via-purple-400/25 to-violet-600/15",
+    accent: "white",
+  },
+  {
+    title: "Perth Logistics Operations Dashboard",
+    description:
+      "Logistics analytics project that built a Python ETL pipeline with PostgreSQL to cleanse shipment records and a Power BI dashboard for executive KPIs, operations drill-down, and data quality monitoring.",
+    stack: ["Python", "PostgreSQL", "Power BI", "pandas"],
+    website: "#",
+    websiteLabel: "Demo",
+    showWebsiteButton: false,
+    github: "https://github.com/ssoyeonisgood/perth-logistics-dashboard",
+    image: "/warehouse.png",
+    gradient: "from-violet-500/35 via-purple-400/25 to-violet-600/15",
+    accent: "red",
+  },
+  {
     title: "Recipe Recommender",
     description:
-      "AI-powered web app that suggests recipes based on an image of ingredients you upload, using Vercel AI SDK.",
+    "AI-powered web app that suggests recipes based on an image of ingredients you upload, using Vercel AI SDK.",
     stack: ["Remix", "TypeScript", "AI SDK"],
     website: "https://recipe-reco.netlify.app/",
     websiteLabel: "Website",
     github: "https://github.com/ssoyeonisgood/recipe-recommender-remix",
-    image: "/recipoe-recommender.png",
+    image: "/recommender.png",
     gradient: "from-amber-400/35 via-orange-300/25 to-amber-500/15",
     accent: "#f59e0b",
   },
@@ -55,19 +81,6 @@ const projects: Project[] = [
     accent: "#10b981",
   },
   {
-    title: "URL Shortener using AWS CDK",
-    description:
-      "A serverless URL shortener using Amazon API Gateway and AWS Lambda, handling URL creation and redirection workflows.",
-    stack: ["AWS CDK", "TypeScript", "API Gateway", "Lambda", "DynamoDB"],
-    website: "#",
-    websiteLabel: "Demo",
-    showWebsiteButton: false,
-    github: "https://github.com/ssoyeonisgood/url-shortner-cdk",
-    image: "/aws_.png",
-    gradient: "from-[#7DD3FC]/40 via-sky-300/25 to-[#7DD3FC]/15",
-    accent: "#7DD3FC",
-  },
-  {
     title: "Weather-logger-python",
     description:
       "Developed a Python data pipeline to collect real-time weather data using APIs, storing results in CSV for historical tracking.",
@@ -77,8 +90,8 @@ const projects: Project[] = [
     github: "https://github.com/ssoyeonisgood/Weather-logger-python",
     image: "/weather.png",
     gradient: "from-violet-500/35 via-purple-400/25 to-violet-600/15",
-    accent: "#8b5cf6",
-  }
+    accent: "#5D7BFA",
+  },
 ];
 
 export function ProjectsSection() {

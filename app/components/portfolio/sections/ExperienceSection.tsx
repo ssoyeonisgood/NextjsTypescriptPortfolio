@@ -4,20 +4,19 @@ import { useEffect, useRef, useState } from "react";
 
 const experiences = [
   {
-    role: "Software Engineer",
-    company: "Setsy",
-    period: "2026.01 — Present",
-    description:
-      "Developed and enhanced features for the Setsy web application using TypeScript, Next.js, Prisma, and Vercel.",
-    active: true,
-  },
-  {
     role: "Export & Import Operator",
     company: "GML Perth Pty Ltd",
     period: "2025.12 — Present",
     description:
       "Managing export and import operations between Australia and Korea, handling logistics and documentation.",
     active: true,
+  },
+  {
+    role: "Software Engineer (Part-time)",
+    company: "Setsy",
+    period: "2026.01 — 2026.06",
+    description:
+      "Collaborated in a cross-functional team to design and deliver full-stack features, improving usability, data handling, and system flexibility.",
   },
   {
     role: "Office Administrator",
