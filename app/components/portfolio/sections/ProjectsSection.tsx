@@ -34,15 +34,27 @@ const projects: Project[] = [
     title: "Perth Logistics Operations Dashboard",
     description:
       "Logistics analytics project that built a Python ETL pipeline with PostgreSQL to cleanse shipment records and a Power BI dashboard for executive KPIs, operations drill-down, and data quality monitoring.",
-    stack: ["Python", "PostgreSQL", "Power BI", "pandas"],
-    website: "#",
-    websiteLabel: "Demo",
-    showWebsiteButton: false,
-    github: "https://github.com/ssoyeonisgood/perth-logistics-dashboard",
-    image: "/warehouse.png",
-    gradient: "from-violet-500/35 via-purple-400/25 to-violet-600/15",
-    accent: "red",
-  },
+      stack: ["Python", "PostgreSQL", "Power BI", "pandas"],
+      website: "#",
+      websiteLabel: "Demo",
+      showWebsiteButton: false,
+      github: "https://github.com/ssoyeonisgood/perth-logistics-dashboard",
+      image: "/warehouse.png",
+      gradient: "from-violet-500/35 via-purple-400/25 to-violet-600/15",
+      accent: "red",
+    },
+    {
+      title: "Mining Operations Issue Tracker",
+      description:
+        "A web application that allows mining operations to track and manage issues in a mining site.",
+      stack: ["C#", "ASP.NET Core", "RESTful API", "React", "TypeScript", "postgreSQL"],
+      website: "https://mining-issue-tracker.vercel.app/",
+      websiteLabel: "Website",
+      github: "https://github.com/ssoyeonisgood/mining-issue-tracker",
+      gradient: "from-[#5D7BFA]/40 via-[#8B9FFF]/30 to-[#5D7BFA]/20",
+      image: "/tracker.png",
+      accent: "skyblue",
+    },
   {
     title: "Recipe Recommender",
     description:
@@ -65,20 +77,7 @@ const projects: Project[] = [
     github: null,
     gradient: "from-[#5D7BFA]/40 via-[#8B9FFF]/30 to-[#5D7BFA]/20",
     image: "/capstone.png",
-    accent: "#5D7BFA",
-  },
-  {
-    title: "Nextjs Typescript Portfolio Website",
-    description:
-      "A portfolio website built with Next.js, TypeScript, and Tailwind CSS.",
-    stack: ["Next.js", "TypeScript", "Tailwind CSS"],
-    website: "#",
-    websiteLabel: "Website",
-    showWebsiteButton: false,
-    github: "https://github.com/ssoyeonisgood/NextjsTypescriptPortfolio",
-    image: "/portfolio.png",
-    gradient: "from-emerald-500/35 via-teal-400/25 to-emerald-600/15",
-    accent: "#10b981",
+    accent: "pink",
   },
   {
     title: "Weather-logger-python",
@@ -90,7 +89,7 @@ const projects: Project[] = [
     github: "https://github.com/ssoyeonisgood/Weather-logger-python",
     image: "/weather.png",
     gradient: "from-violet-500/35 via-purple-400/25 to-violet-600/15",
-    accent: "#5D7BFA",
+    accent: "green",
   },
 ];
 
