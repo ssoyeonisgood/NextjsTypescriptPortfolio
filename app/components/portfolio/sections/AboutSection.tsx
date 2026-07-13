@@ -135,7 +135,7 @@ export function AboutSection() {
               </p>
 
               <p>
-                Until recently, I also worked as a{" "}
+                I also work as a{" "}
                 <strong>part-time Software Engineer at Setsy</strong>, where I collaborated with a
                 cross-functional team to design and deliver full-stack features. That role gave me
                 hands-on experience in a live product environment, from building and refining

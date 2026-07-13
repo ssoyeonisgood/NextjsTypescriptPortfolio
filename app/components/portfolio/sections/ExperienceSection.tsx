@@ -14,7 +14,7 @@ const experiences = [
   {
     role: "Software Engineer (Part-time)",
     company: "Setsy",
-    period: "2026.01 — 2026.06",
+    period: "2026.01 — Present",
     description:
       "Collaborated in a cross-functional team to design and deliver full-stack features, improving usability, data handling, and system flexibility.",
   },
